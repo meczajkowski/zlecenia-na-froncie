@@ -1,0 +1,13 @@
+.description {
+  margin: 0 auto 17px;
+  width: 233px;
+  height: 36px;
+
+  color: var(--onforeground-color);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
