@@ -1,4 +1,7 @@
 .backdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -9,18 +12,6 @@
 }
 
 .modal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 25;
-}
-
-.content {
   width: 100%;
   max-width: 582px;
   background-color: var(--onbackground-color);
