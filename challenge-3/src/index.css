@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --onbackground-color: #fff;
+  --onforeground-color: #000;
+
+  --primary-foreground-color: #dcdefd;
+  --primary-background-color: #6a6ef7;
+
+  --border-radius: 40px;
+}
+
+:root {
+  font-family: Work Sans, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
 
   font-synthesis: none;
@@ -25,6 +37,6 @@ button {
   font-size: inherit;
   font-weight: inherit;
   font-family: inherit;
-
+  border: none;
   cursor: pointer;
 }
