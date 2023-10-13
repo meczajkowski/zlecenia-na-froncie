@@ -1,10 +1,12 @@
-button {
-  color: var(--primary-foreground-color);
-  background-color: var(--primary-background-color);
-
+.button {
+  display: block;
+  margin: 0 auto;
   padding-block: 10px;
   padding-inline: 30px;
   border-radius: var(--border-radius);
+
+  color: var(--primary-foreground-color);
+  background-color: var(--primary-background-color);
 
   /*  */
   text-align: center;
@@ -17,7 +19,7 @@ button {
   transition: color 0.2s, backgrond-color 0.2s;
 }
 
-button:hover {
+.button:hover {
   color: var(--primary-background-color);
   background-color: var(--primary-foreground-color);
 }

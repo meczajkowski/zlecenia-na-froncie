@@ -1,7 +1,14 @@
-import './Button.module.css';
+import styles from './Button.module.css';
 
 const Button = (props) => {
-  return <button>{props.children}</button>;
+  return (
+    <button
+      className={`${styles.button} ${props.className ? props.className : ''}`}
+      onClick={props.onClick}
+    >
+      {props.children}
+    </button>
+  );
 };
 
 export default Button;
